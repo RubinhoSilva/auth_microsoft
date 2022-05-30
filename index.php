@@ -5,6 +5,6 @@
     <title>Sign in with Microsoft</title>
 </head>
 <body>
-<a href="/signin.php">Sign in with Microsoft</  a>
+<a href="/signin.php">Sign in with Microsoft</a>
 </body>
 </html>
