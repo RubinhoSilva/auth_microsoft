@@ -1,0 +1,14 @@
+{
+    "name": "rubinho/test_auth_microsoft",
+    "type": "project",
+    "description": "Authentication project using Microsoft accounts.",
+    "keywords": ["microsoft", "auth"],
+    "license": "MIT",
+    "config": {
+        "platform-check": false
+    },
+    "require": {
+        "adnanhussainturki/microsoft-api-php": "^0.03.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
