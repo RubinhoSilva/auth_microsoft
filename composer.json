@@ -8,7 +8,6 @@
         "platform-check": false
     },
     "require": {
-        "adnanhussainturki/microsoft-api-php": "^0.03.0",
-        "vlucas/phpdotenv": "^5.4"
+        "adnanhussainturki/microsoft-api-php": "^0.03.0"
     }
 }

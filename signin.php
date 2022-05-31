@@ -6,12 +6,9 @@ ini_set('display_errors', 'on');
 require "vendor/autoload.php";
 use myPHPnotes\Microsoft\Auth;
 
-//$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
-//$dotenv->load();
-
 $tenant = "common";
 
-$client_id = getenv('CLIENT_ID');
+$client_id = $_ENV('CLIENT_ID');
 $client_secret = $_ENV['CLIENTE_SECRET'];
 $callback = $_ENV['CALLBACK'];
 $scopes = ["User.Read"];
