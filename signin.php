@@ -8,7 +8,7 @@ use myPHPnotes\Microsoft\Auth;
 
 $tenant = "common";
 
-$client_id = $_ENV('CLIENT_ID');
+$client_id = $_ENV['CLIENT_ID'];
 $client_secret = $_ENV['CLIENTE_SECRET'];
 $callback = $_ENV['CALLBACK'];
 $scopes = ["User.Read"];
